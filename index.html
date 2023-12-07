@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Video Games</title>
+  </head>
+  <body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header>
+      <nav class = "main-nav">
+        <ul class="nav_links">
+          <li class="nav_item"><a href="index.html"><span>Home Page</span></a></li>
+          <li class="nav_item"><a href="tlou.html"><span>The Last of Us</span></a></li>
+          <li class="nav_item"><a href="tw3.html"><span>The Witcher 3</span></a></li>
+        </ul>
+    </nav>
+    <div class="placeholder"></div>
+  </header>
+  <main class="games" id="skip">
+    <div>
+        <h1>My Favorite Video Games</h1>
+        <p>Here are two of my favorite video games of all time!</p>
+        <p id = "sms">(Long press the banner to watch the video introduction if you are using mobile phone.)</p>
+    </div>
+    <div class="box">
+    <div class="banner" id="tlou_banner"><a href="tlou.html">
+        <img src="images/tlou_poster.jpg" alt="The Last of Us" id="tlou">
+        <video id = "tlou_video" loop muted>
+            <source src="videos/tlou_intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+       </a>
+    </div>
+    <div class="banner" id="tw3_banner"><a href="tlou.html">
+        <img src="images/tw3_poster.png" alt="The Witcher 3" id="tw3">
+        <video id = "tw3_video" loop muted>
+            <source src="videos/tw3_intro.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </a>
+    </div>
+</div>
+    
+  </main>
+
+    <footer>
+        <p>SI 539 Final Project &copy; 2023</p>
+    </footer>
+    <script src="js/video.js">
+    </script>
+  </body>
+</html>
