@@ -294,3 +294,13 @@ iframe{
         display: none;
     }
 }
+
+@media (prefers-reduced-motion: reduce){
+    #tlou_video{
+        opacity: 1;
+    }
+
+    #tw3_video{
+        opacity: 1;
+    }
+}    
